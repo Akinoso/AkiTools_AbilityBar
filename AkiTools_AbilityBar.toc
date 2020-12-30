@@ -1,0 +1,12 @@
+## Interface: 90001
+## Version: 1.0
+## Title: AkiTools_AbilityBar
+## Author: Akinos
+## SavedVariables: AkiABDB
+## Notes-zhCN: 实用小工具
+
+Base.lua
+Data.lua
+Functions.lua
+Events.lua
+AbilityBar.lua
