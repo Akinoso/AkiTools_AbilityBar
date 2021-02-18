@@ -49,7 +49,10 @@ end
 -- 玩家目标改变
 frame:RegisterEvent('PLAYER_TARGET_CHANGED')
 function frame:PLAYER_TARGET_CHANGED(...)
-	if not DB.enable then return end
+	if not DB.enable then 
+		abilityBar:Clear()
+		return
+	end
 	local name = UnitName("target")
 	local where = AkiAB:WhereAmI()
 	if not name then
