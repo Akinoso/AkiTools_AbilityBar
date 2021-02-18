@@ -1,5 +1,6 @@
 -- 初始设置
 AkiAB.DB = {
+	enable = true,
 	zone = {},
 }
 
